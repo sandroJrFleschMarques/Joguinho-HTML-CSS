@@ -1,0 +1,79 @@
+    body      {
+        width: 1024px;
+		margin: 0 auto;
+	    background-color: #040509;
+        color:white;
+        text-align: center;
+     }
+
+    .item     {
+        width: 20%;
+        height: 18.6%;
+        float: left;
+    }
+
+    .item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .simb     {
+            width: 25%;
+            height: 18.6%;
+            float: left;
+    }
+
+    .simb img {
+            width: 100%;
+            height:100%;
+    }
+
+    .divs     {
+        width: 25%;
+        height: 23.3%;
+        float: left;
+    }
+
+    .divs img {
+        width: 100%;
+        height:100%;
+    }
+
+    .msg img  {
+        padding: 50px;
+        width: 400px;
+        height: 250px;
+    }
+    
+    .img1     {
+        width: 33%;
+        float: left; 
+    }
+
+    .img1 img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .img2     {
+        width: 33%;
+        float: right; 
+    }
+
+    .img2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu     {
+        width: 34%;
+        height: 100%;
+        float: left;
+    }
+    
+    .menu img   {
+        width: 100%;
+        height: 30%; 
+        margin-top: 60%;  
+
+    }

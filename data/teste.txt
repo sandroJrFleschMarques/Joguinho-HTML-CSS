@@ -1,0 +1,71 @@
+Utilize os seguintes elementos
+- style
+- div
+- a
+- img
+
+------------------------------------------------------------------------------------------
+
+1º - Pesquisar no Google 25 'wallpepers' com tamanho grande que deseja usar
+2º - Pesquisar para o que serve a tag '<style>' e como se usa o elemento '<a>'
+3º - Criar uma div possuindo unicamente o atributo class com o valor de "item"
+4º - Dentro da div criada cria um elemento '<a>'
+5º - Dentro do elemento '<a>' criar uma imagem com um dos 'wallpepers' pesquisado, o elemento imagem não deve ter mais nada exceto a imagem que deseja exibir
+6º - Pronto, a estrutura base está feita, agora copie a 'div' item por completo, com seus elementos filhos e cole, até possuir 25 repetições iguais
+7º - Alterar as 25 img para cada uma das escolhidas, aproveite para colocar o 'href' do elemento 'a' com o mesmo link
+8º - Agora vamos usar a tag 'style', crie a tag, sendo a primeira coisa que vê após a 'body', dentro da tag, cole o seguinte trecho:
+
+<body>
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .item {
+        width: 20%;
+        height: 20%;
+        float: left;
+    }
+
+    .item a {
+        display: inline-block;
+    }
+
+    .item img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+9º - Verifique seu resultado
+10º - Pesquise elementos e trechos que ficou na dúvida
+11º - Após brincar um pouco com o código, adicione mais este trecho ao final a tag 'style'
+
+    .galeria {
+        width: 1024px;
+        margin: 0 auto;
+    }
+</style>
+
+------------------------------------------------------------------------------------------
+
+Código Inicial:
+...
+<div class="galeria">
+    <!-- seu codigo aqui-->
+</div>
+...
+
+------------------------------------------------------------------------------------------
+Desafio extra:
+
+12º - colocar no topo a página com título de tamanho 3 : "Encontre a imagem correta"
+13º - Criar um nova página, do jeito que desejar, mas com a mensagem "Não é esta"
+14º - Criar mais uma página, com uma nova galeria de imagens
+
+15º - Alterar os 'href' de todos os elementos 'a' para enviar a página "Não é esta"
+16º - Escolher aleatoriamente um dos 'href' para ir para a nova galeria
+
+Obs.: Você pode fazer isso o quanto quiser.
